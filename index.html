@@ -1,0 +1,8 @@
+const datos = {
+ primerNumero: 5,
+ segundoNumero:5
+}
+const respuesta =
+ await enviaJson(
+  "srv/json.php", datos)
+alert(respuesta.body)
